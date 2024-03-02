@@ -2541,7 +2541,7 @@ end)
 
 
     local ToggleLevel = Tabs.Main:AddToggle("ToggleLevel", {
-        Title = "Cày Cấp Độ",
+        Title = "Auto Farm Level",
         Description = "",
         Default = false })
     ToggleLevel:OnChanged(function(Value)
@@ -4201,7 +4201,7 @@ ToggleAutoW:OnChanged(function(Value)
         end
         for r, v in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v:IsA("MeshPart") then
-                if v.MeshId == "rbxassetid://16137232629" then
+                if v.MeshId == "rbxassetid://16587781429" then
                     return v
                 end
             end
@@ -6679,7 +6679,7 @@ Tabs.Misc:AddButton({
 		for k, v in pairs(cac) do
 			if ListHuhu[v] and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy" .. v, true) == 1 then
 				local huhu = Instance.new("ImageLabel", MeleeG)
-				huhu.Image = "rbxassetid://16137232629"
+				huhu.Image = "rbxassetid://16587781429"
 				huhu.ImageRectSize = Vector2.new(100, 100)
 				huhu.ImageRectOffset = ListHuhu[v] * 100
 			end
