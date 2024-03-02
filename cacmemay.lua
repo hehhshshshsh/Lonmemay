@@ -6785,7 +6785,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=16137232629" then
             Hop()
             Fluent:Notify({
-                Title = "YTB: Zuesz Hub",
+                Title = "CHUỐI TƯƠI HUB",
                 Content = "Turn Off Find Full Moon...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -6793,7 +6793,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=16137232629" then
             Hop()
             Fluent:Notify({
-                Title = "YTB: Zuesz Hub",
+                Title = "CHUỐI TƯƠI HUB",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -6801,7 +6801,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=16137232629" then
             Hop()
             Fluent:Notify({
-                Title = "YTB: Zuesz Hub",
+                Title = "CHUỐI TƯƠI HUB",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
